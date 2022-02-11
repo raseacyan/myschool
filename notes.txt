@@ -1,0 +1,96 @@
+courses
+===========
+id
+title
+description
+price
+teacher_id
+created_on
+
+Potions
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis turpis nec neque tempus tincidunt. Sed quis arcu efficitur, ornare sapien ac, sollicitudin nunc. Duis porta, diam a porttitor aliquam, lorem turpis venenatis ante, vitae viverra ante sapien eu augue. 
+Mon-Fri: 10am-12pm
+100000
+
+Transfiguration
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis turpis nec neque tempus tincidunt. Sed quis arcu efficitur, ornare sapien ac, sollicitudin nunc. Duis porta, diam a porttitor aliquam, lorem turpis venenatis ante, vitae viverra ante sapien eu augue. 
+Sat-Sun: 10am-12pm
+100000
+
+teachers
+===========
+id
+name
+phone
+address
+password
+created_on
+
+Severus Snape
+11111111
+Hogwarts
+test123
+
+Minerva McGonagall
+22222222
+Hogwarts
+test123
+
+students
+===========
+id
+name
+phone
+address
+password
+created_on
+
+Harry Potter
+33333333
+Hogwarts
+test123
+
+Hermione Granger
+44444444
+Hogwarts
+test123
+
+
+registrations
+==============
+id
+register_date
+student_id
+course_id
+created_on
+
+classes
+=========
+id
+date
+time
+course_id
+created_on
+
+attendances
+============
+id
+class_id
+student_id
+status
+created_on
+
+resources
+==========
+id
+url
+description
+course_id
+teacher_id
+created_on
+
+
+
+
+
+
